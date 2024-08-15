@@ -1,0 +1,216 @@
+
+/* Header */
+.header__cor{
+  background-color: #c3e3fd;
+  color: #2f2c79;
+}
+
+.header__tamanho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.input_header {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  line-height: 28px;
+  width: 500px;
+}
+
+.menu_header {
+  margin: 0;
+  display: none;
+  float: right;
+}
+
+.menu_header ul {
+  list-style: none;
+  margin: 0;
+}
+
+.menu_header ul li {
+  margin-right: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu_header ul li a {
+  float: right;
+  color: #2f2c79;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  border: #080808 solid 1px;
+  margin: 2px;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 14px 25px;
+}
+
+.menu_header ul li a:hover {
+  background-color: #c3e3fd;
+  transform: scale(1.1);
+}
+
+.cart_header {
+  right: 20px;
+  top: 50%;
+  font-size: 20px;
+  color: #1b1212;
+}
+
+.cart_header:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+
+/* CAROCEL */
+.carousel-container {
+  position: relative;
+  width: 750px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex; /* Ajuste aqui para alinhar os slides horizontalmente */
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%; /* Cada slide ocupa a largura completa do contêiner */
+  position: relative; /* Necessário para posicionar o texto */
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  box-shadow: 9px 10px 15px  rgb(154, 148, 148);
+  border-radius: 15px;
+}
+
+.carousel-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* CONTEUDO CENTRAL */
+.texto_main {
+  display: inline-block;
+  justify-items: center;
+  font-family: Arial, sans-serif;
+  background-color:#FFE7D6;
+  text-align: center;
+  max-width: 50%;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 300px;
+  box-shadow: 9px 10px 5px  rgb(154, 148, 148);
+  border-radius: 10px;
+  
+}
+
+.texto_main h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.texto_main p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+
+/* RODAPÉ */
+footer {
+  background-color: #1d1c51;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+/* Conteúdo do rodapé */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Texto do rodapé */
+.footer-text {
+  text-align: center;
+  flex: 1;
+}
+
+/* Redes sociais */
+.social-media-icons {
+  display: flex;
+   gap: 10px;
+}
+
+.social-media-icons a {
+  color: #1d1c51;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-media-icons a:hover {
+  color: #000;
+}
+
+.social-media-icons img {
+  border-radius: 50%;
+
+}
+
+ 
