@@ -115,6 +115,7 @@ input[type="email"],
 input[type="tel"],
 input[type="date"],
 input[type="number"],
+input[type="password"],
 select {
     width: 100%; /* Faz com que os campos de entrada ocupem toda a largura */
     padding: 10px; /* Espaçamento interno dos campos */
